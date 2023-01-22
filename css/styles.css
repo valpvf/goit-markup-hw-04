@@ -412,7 +412,7 @@ img {
 }
 
 .customer-item {
-  width: calc((100%-5 * 24px) / 6);
+  width: calc((100% - 5 * 24px) / 6);
   height: 88px;
 }
 
@@ -479,7 +479,8 @@ img {
 }
 
 .gallery-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+border: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .gallery-item > .link {
